@@ -1,16 +1,19 @@
 import React from "react";
-import checkForMatch from'./Images'
 
 class ImageCard extends React.Component {
   
 
   imageFlip = () => {
 
-    let id = document.getElementById(this.props.id);
+    let image = document.getElementById(this.props.id);
 
     // disable the element after clicking
-    id.style.pointerEvents = "none";
-    id.setAttribute("src", this.props.img);
+    image.style.pointerEvents = "none";
+    image.setAttribute("src", this.props.img);
+    //calling the handleState method to reference and change the same state 
+    //if the state was in this component it will be referencing a new state 
+    //each time the image was clicked
+    this.props.handleState(this.props.name,this.props.id)
 
 
    
