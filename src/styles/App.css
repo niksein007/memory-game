@@ -1,0 +1,14 @@
+.ImageCard {
+  background-image: url(../components/images/main-bg.png);
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+/*# sourceMappingURL=App.css.map */
