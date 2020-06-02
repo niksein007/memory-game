@@ -3,9 +3,9 @@ import React from "react";
 class ImageCard extends React.Component {
   
 
-  imageFlip = () => {
-
-    let image = document.getElementById(this.props.id);
+  imageFlip = (e) => {
+ let image = e.target;
+    // let image = document.getElementById(this.props.id);
 
     // disable the element after clicking
     image.style.pointerEvents = "none";

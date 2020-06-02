@@ -9,7 +9,7 @@ import mainBbg from "./components/images/main-bg.png";
 import popCorn from "./components/images/pop-corn.png";
 import cup from "./components/images/cup.png";
 import whiteBg from "./components/images/white-bg.png";
-
+// import images from'./components/Images';
 import ImageCard from "./components/ImageCard";
 
 class App extends React.Component {
@@ -82,6 +82,8 @@ class App extends React.Component {
   };
 
   render() {
+    
+
     const imageCard = this.state.images.map((value, key) => {
       //  console.log(value.name);
 
@@ -93,6 +95,8 @@ class App extends React.Component {
           name={value.name}
           img={value.img}
         />
+
+
       );
     });
 
