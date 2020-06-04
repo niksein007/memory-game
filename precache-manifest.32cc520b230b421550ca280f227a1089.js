@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a40f171c0328e840def0cef1eb520a68",
+    "revision": "b71918c3d0ce51f46615f5a75d94b1e1",
     "url": "/memory-game/index.html"
   },
   {
-    "revision": "f9448352ee3e969a7a2a",
-    "url": "/memory-game/static/css/main.1f67eba3.chunk.css"
+    "revision": "71c938ecc50dd1d17570",
+    "url": "/memory-game/static/css/main.b53bcf7c.chunk.css"
   },
   {
-    "revision": "680c8a8fbf97768a102b",
-    "url": "/memory-game/static/js/2.c6c4d34a.chunk.js"
+    "revision": "7f9e4c6a21f12cad5cb6",
+    "url": "/memory-game/static/js/2.3ca1a54a.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/memory-game/static/js/2.c6c4d34a.chunk.js.LICENSE.txt"
+    "url": "/memory-game/static/js/2.3ca1a54a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9448352ee3e969a7a2a",
-    "url": "/memory-game/static/js/main.91f50068.chunk.js"
+    "revision": "71c938ecc50dd1d17570",
+    "url": "/memory-game/static/js/main.301c3ed7.chunk.js"
   },
   {
     "revision": "8e787906f2d28b5141ba",
@@ -28,15 +28,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/memory-game/static/media/apple.4b5a5e7a.png"
   },
   {
+    "revision": "8aae57dfd30df8d35a5a89e298b84552",
+    "url": "/memory-game/static/media/cabbage.8aae57df.png"
+  },
+  {
     "revision": "faf08fbf46b86d815499b41f030cd3b7",
     "url": "/memory-game/static/media/main-bg.faf08fbf.png"
   },
   {
     "revision": "2481b3f8cec3b3edfc0ad893d0f37b05",
     "url": "/memory-game/static/media/pop-corn.2481b3f8.png"
-  },
-  {
-    "revision": "937659a0c5c0a2ccade2efb54d6fb3f9",
-    "url": "/memory-game/static/media/sandwich.937659a0.png"
   }
 ]);

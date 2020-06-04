@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.1f67eba3.chunk.css",
-    "main.js": "/memory-game/static/js/main.91f50068.chunk.js",
-    "main.js.map": "/memory-game/static/js/main.91f50068.chunk.js.map",
+    "main.css": "/memory-game/static/css/main.b53bcf7c.chunk.css",
+    "main.js": "/memory-game/static/js/main.301c3ed7.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.301c3ed7.chunk.js.map",
     "runtime-main.js": "/memory-game/static/js/runtime-main.bbb8fc2a.js",
     "runtime-main.js.map": "/memory-game/static/js/runtime-main.bbb8fc2a.js.map",
-    "static/js/2.c6c4d34a.chunk.js": "/memory-game/static/js/2.c6c4d34a.chunk.js",
-    "static/js/2.c6c4d34a.chunk.js.map": "/memory-game/static/js/2.c6c4d34a.chunk.js.map",
+    "static/js/2.3ca1a54a.chunk.js": "/memory-game/static/js/2.3ca1a54a.chunk.js",
+    "static/js/2.3ca1a54a.chunk.js.map": "/memory-game/static/js/2.3ca1a54a.chunk.js.map",
     "index.html": "/memory-game/index.html",
-    "precache-manifest.2a5821498c12f3c0218bb5f9a90852c3.js": "/memory-game/precache-manifest.2a5821498c12f3c0218bb5f9a90852c3.js",
+    "precache-manifest.32cc520b230b421550ca280f227a1089.js": "/memory-game/precache-manifest.32cc520b230b421550ca280f227a1089.js",
     "service-worker.js": "/memory-game/service-worker.js",
-    "static/css/main.1f67eba3.chunk.css.map": "/memory-game/static/css/main.1f67eba3.chunk.css.map",
-    "static/js/2.c6c4d34a.chunk.js.LICENSE.txt": "/memory-game/static/js/2.c6c4d34a.chunk.js.LICENSE.txt",
+    "static/css/main.b53bcf7c.chunk.css.map": "/memory-game/static/css/main.b53bcf7c.chunk.css.map",
+    "static/js/2.3ca1a54a.chunk.js.LICENSE.txt": "/memory-game/static/js/2.3ca1a54a.chunk.js.LICENSE.txt",
     "static/media/apple.png": "/memory-game/static/media/apple.4b5a5e7a.png",
+    "static/media/cabbage.png": "/memory-game/static/media/cabbage.8aae57df.png",
     "static/media/main-bg.png": "/memory-game/static/media/main-bg.faf08fbf.png",
-    "static/media/pop-corn.png": "/memory-game/static/media/pop-corn.2481b3f8.png",
-    "static/media/sandwich.png": "/memory-game/static/media/sandwich.937659a0.png"
+    "static/media/pop-corn.png": "/memory-game/static/media/pop-corn.2481b3f8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bbb8fc2a.js",
-    "static/js/2.c6c4d34a.chunk.js",
-    "static/css/main.1f67eba3.chunk.css",
-    "static/js/main.91f50068.chunk.js"
+    "static/js/2.3ca1a54a.chunk.js",
+    "static/css/main.b53bcf7c.chunk.css",
+    "static/js/main.301c3ed7.chunk.js"
   ]
 }
