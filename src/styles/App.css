@@ -1,11 +1,14 @@
 .ImageCard {
-  background-image: url(../components/images/main-bg.png);
-  height: 100px;
-  width: 100px;
-  border: 1px solid yellowgreen;
+  border: 1px solid white;
 }
 
-.grid {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
   display: flex;
   flex-wrap: wrap;
   width: 400px;
