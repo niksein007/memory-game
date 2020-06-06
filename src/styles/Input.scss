@@ -1,13 +1,42 @@
 @use 'ImageCard';
 @use 'config';
 
-.App{
-    
- 
-}
+.App {
+  text-align: center;
 
-.appImages{
+  .appImages {
     display: flex;
     flex-wrap: wrap;
     width: 400px;
+    margin: auto;
+  }
+
+  .reset {
+    font-size: x-large;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    &:hover{
+    color: #4caf50;
+        background-color: whitesmoke;
+    }
+  }
+  .counter {
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    .counter-count {
+      font-family: sans-serif;
+      font-size: x-large;
+      color: #4caf50;
+    }
+
+    .counter-value {
+      font-size: x-large;
+    }
+  }
+
+  p.winMsg {
+    color: #4caf50;
+  }
 }

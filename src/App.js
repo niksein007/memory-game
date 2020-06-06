@@ -32,6 +32,10 @@ class App extends React.Component {
     });
   };
 
+  reset = () => {
+    window.location.reload();
+  };
+
   componentDidMount() {
     let imageDuplicte = [...imagesData.images, ...imagesData.images];
     //sort the imageDuplicate in random order// not sorting after map because react will not
@@ -61,14 +65,19 @@ class App extends React.Component {
       );
     });
 
-
     return (
       <div className="App">
-        <div>
-          <span>count:</span> <span>{this.state.score}</span>
-          <p>{this.state.score === 12 &&'Congratulation you Win!!!'}</p>
+        <div className="counter">
+          <span className="counter-count">count:</span>{" "}
+          <span className="counter-value">{this.state.score}</span>
+          <p className='winMsg'>{this.state.score === 12 && "Congratulation you Win!!!"}</p>
         </div>
         <div className="appImages">{imageGrid}</div>
+        <div>
+          <button className="reset" onClick={this.reset}>
+            Reset
+          </button>
+        </div>
       </div>
     );
   }

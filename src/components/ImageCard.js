@@ -28,20 +28,24 @@ class ImageCard extends React.Component {
   checkLogic = () => {
     // console.log(this.props.imageHolder);
     let imageHolder = this.props.imageHolder;
+   
     if (
       imageHolder.length === 2 &&
       imageHolder[0].url === imageHolder[1].url &&
       this.props.image.url === imageHolder[0].url
     ) {
-      console.log("yes");
+      // console.log("yes");
       this.setState((prevState) => {
         return {
           showImage: !prevState,
           backgroundImage: this.props.backgroundImages.whiteBg.url,
         };
       });
-      this.props.clearImageHolder();
+      //delaying the time to 2ms for clearImageHolder to run
+      // this.props.clearImageHolder();
       this.props.updateScore();
+      setTimeout(()=>{this.props.clearImageHolder()},200)
+
     } else if (
       imageHolder.length === 2 &&
       imageHolder[0].url !== imageHolder[1].url
@@ -50,7 +54,7 @@ class ImageCard extends React.Component {
         this.props.index === imageHolder[0].index ||
         this.props.index === imageHolder[1].index
       ) {
-        console.log("not the same" + this.props.index+this.props.imageHolder );
+        // console.log("not the same" + this.props.index+this.props.imageHolder );
         this.setState((prevState) => {
           return {
             pointerEvents: "auto",
@@ -59,19 +63,21 @@ class ImageCard extends React.Component {
         });
       }
 
-      this.props.clearImageHolder();
+      setTimeout(()=>{this.props.clearImageHolder()},200)
+      // this.props.clearImageHolder();
     }
   };
 
 
   componentDidUpdate() {
-    // let check = this.checkLogic();
-    console.log("did update");
-    // setTimeout(()=>{this.checkLogic()}, 100);
-    this.checkLogic();
+    // console.log("did update");
+    //delaying the time for cheecKLogic() to run for 5ms 
+    // the setTimeout() in the checkLogic() and componentDidUpdate() allows the 
+    //images to show before disapearing
+    setTimeout(()=>{this.checkLogic()}, 500);
   }
   componentDidMount() {
-    console.log("did mount");
+    // console.log("did mount");
   }
   render() {
     return (

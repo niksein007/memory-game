@@ -15,10 +15,39 @@ img {
   padding: 0;
 }
 
-.appImages {
+.App {
+  text-align: center;
+}
+.App .appImages {
   display: flex;
   flex-wrap: wrap;
   width: 400px;
+  margin: auto;
+}
+.App .reset {
+  font-size: x-large;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.App .reset:hover {
+  color: #4caf50;
+  background-color: whitesmoke;
+}
+.App .counter {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.App .counter .counter-count {
+  font-family: sans-serif;
+  font-size: x-large;
+  color: #4caf50;
+}
+.App .counter .counter-value {
+  font-size: x-large;
+}
+.App p.winMsg {
+  color: #4caf50;
 }
 
 /*# sourceMappingURL=App.css.map */
