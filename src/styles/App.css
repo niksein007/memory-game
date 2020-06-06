@@ -1,5 +1,12 @@
 .ImageCard {
+  width: 100px;
+  height: 100px;
   border: 1px solid #E6EE9C;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
 
 * {
@@ -8,7 +15,7 @@
   padding: 0;
 }
 
-.App {
+.appImages {
   display: flex;
   flex-wrap: wrap;
   width: 400px;
