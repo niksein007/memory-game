@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/memory-game/static/css/main.78a0bfd0.chunk.css",
-    "main.js": "/memory-game/static/js/main.9fdc8642.chunk.js",
-    "main.js.map": "/memory-game/static/js/main.9fdc8642.chunk.js.map",
+    "main.css": "/memory-game/static/css/main.4112d2b1.chunk.css",
+    "main.js": "/memory-game/static/js/main.c9e66d3c.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.c9e66d3c.chunk.js.map",
     "runtime-main.js": "/memory-game/static/js/runtime-main.bbb8fc2a.js",
     "runtime-main.js.map": "/memory-game/static/js/runtime-main.bbb8fc2a.js.map",
     "static/js/2.e12b571b.chunk.js": "/memory-game/static/js/2.e12b571b.chunk.js",
     "static/js/2.e12b571b.chunk.js.map": "/memory-game/static/js/2.e12b571b.chunk.js.map",
     "index.html": "/memory-game/index.html",
-    "precache-manifest.0ce58566a48db312fefe16c933330418.js": "/memory-game/precache-manifest.0ce58566a48db312fefe16c933330418.js",
+    "precache-manifest.3396f5b53efb78865d866676d504c090.js": "/memory-game/precache-manifest.3396f5b53efb78865d866676d504c090.js",
     "service-worker.js": "/memory-game/service-worker.js",
-    "static/css/main.78a0bfd0.chunk.css.map": "/memory-game/static/css/main.78a0bfd0.chunk.css.map",
+    "static/css/main.4112d2b1.chunk.css.map": "/memory-game/static/css/main.4112d2b1.chunk.css.map",
     "static/js/2.e12b571b.chunk.js.LICENSE.txt": "/memory-game/static/js/2.e12b571b.chunk.js.LICENSE.txt",
     "static/media/apple.png": "/memory-game/static/media/apple.4b5a5e7a.png",
-    "static/media/cabbage.png": "/memory-game/static/media/cabbage.8aae57df.png",
-    "static/media/main-bg.png": "/memory-game/static/media/main-bg.faf08fbf.png",
+    "static/media/cabbage.png": "/memory-game/static/media/cabbage.efe67c19.png",
+    "static/media/cup.png": "/memory-game/static/media/cup.e2041441.png",
+    "static/media/mainBg2.png": "/memory-game/static/media/mainBg2.d6f37756.png",
     "static/media/pop-corn.png": "/memory-game/static/media/pop-corn.2481b3f8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bbb8fc2a.js",
     "static/js/2.e12b571b.chunk.js",
-    "static/css/main.78a0bfd0.chunk.css",
-    "static/js/main.9fdc8642.chunk.js"
+    "static/css/main.4112d2b1.chunk.css",
+    "static/js/main.c9e66d3c.chunk.js"
   ]
 }
