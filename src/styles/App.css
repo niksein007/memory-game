@@ -32,7 +32,7 @@ img {
 .App .reset {
   font-size: x-large;
   padding: 5px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 5px;
 }
 .App .reset:hover {
@@ -41,7 +41,7 @@ img {
   outline: none;
 }
 .App .counter {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .App .counter .counter-label {
