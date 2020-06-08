@@ -21,7 +21,7 @@ img {
 .App .appImages {
   display: flex;
   flex-wrap: wrap;
-  width: 400px;
+  width: 300px;
   margin: auto;
 }
 .App .reset {
@@ -32,7 +32,8 @@ img {
 }
 .App .reset:hover {
   color: #4caf50;
-  background-color: whitesmoke;
+  background-color: white;
+  outline: none;
 }
 .App .counter {
   margin-top: 50px;
@@ -45,9 +46,11 @@ img {
 }
 .App .counter .counter-value {
   font-size: x-large;
+  font-family: cursive;
 }
 .App p.winMsg {
   color: #4caf50;
+  font-size: x-large;
 }
 
 /*# sourceMappingURL=App.css.map */
