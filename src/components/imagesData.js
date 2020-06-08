@@ -3,7 +3,7 @@ import cabbage from "./images/cabbage.png";
 import corn from "./images/corn.png";
 import cupCake from "./images/cup-cake.png";
 import cup from "./images/cup.png";
-import mainBg from "./images/main-bg.png";
+import mainBg from "./images/mainBg2.png";
 import popCorn from "./images/pop-corn.png";
 // import sandwich from "./images/sandwich.png";
 import whiteBg from "./images/white-bg.png";

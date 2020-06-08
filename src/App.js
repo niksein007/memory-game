@@ -68,7 +68,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="counter">
-          <span className="counter-count">count:</span>{" "}
+          <span className="counter-count">Score:</span>{" "}
           <span className="counter-value">{this.state.score}</span>
           <p className='winMsg'>{this.state.score === 12 && "Congratulation you Win!!!"}</p>
         </div>
