@@ -1,6 +1,7 @@
 import React from "react";
 import ImageCard from "./components/ImageCard";
 import { imagesData } from "./components/imagesData";
+import TimeCard from "./components/TimeCard";
 import "./styles/App.css";
 
 class App extends React.Component {
@@ -9,6 +10,8 @@ class App extends React.Component {
     backgroundImages: {},
     score: 0,
     imageHolder: [],
+    btnsClicked: 0,
+    timeCounter: 0,
     // showImage:false,
   };
   updateScore = () => {
@@ -32,6 +35,13 @@ class App extends React.Component {
     });
   };
 
+  updateBtnsClicked = () => {
+    // console.log("hii");
+    this.setState((prevState) => {
+      return { btnsClicked: prevState.btnsClicked + 1 };
+    });
+  };
+
   reset = () => {
     window.location.reload();
   };
@@ -47,6 +57,7 @@ class App extends React.Component {
       images: imageDuplicte,
       backgroundImages: imagesData.backgroungImages,
     });
+    ///////////////////////////////////////////////
   }
   render() {
     const imageGrid = this.state.images.map((image, index) => {
@@ -60,6 +71,7 @@ class App extends React.Component {
           clearImageHolder={this.clearImageHolder}
           imageHolder={this.state.imageHolder}
           updateScore={this.updateScore}
+          updateBtnsClicked={this.updateBtnsClicked}
           // showImage={this.state.showImage}
         />
       );
@@ -68,9 +80,19 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="counter">
-          <span className="counter-count">Score:</span>{" "}
+          <span className="counter-label">Score:</span>{" "}
           <span className="counter-value">{this.state.score}</span>
-          <p className='winMsg'>{this.state.score === 12 && "Congratulation you Win!!!"}</p>
+          <span className="counter-label">Time:</span>{" "}
+          <span className="counter-value">
+            {this.state.btnsClicked > 0 ? (
+              <TimeCard score={this.state.score} btnsClicked={this.state.btnsClicked} />
+            ) : (
+              0
+            )}
+          </span>
+          <p className="winMsg">
+            {this.state.score === 12 && "Congratulation you Win!!! "}
+          </p>
         </div>
         <div className="appImages">{imageGrid}</div>
         <div>

@@ -11,20 +11,31 @@ class ImageCard extends React.Component {
       src: this.props.image.url,
       alt: this.props.image.name,
       pointerEvents: "auto",
-      // imageHolder: this.props.imageHolder,
       showImage: false,
       backgroundImage: this.props.backgroundImages.mainBg.url,
+      
     };
   }
+  ////////////////////////////////////////////////////
+//   updateTimeCounter=()=>{
+//     setInterval(()=>{
+//       this.setState((prevState)=>{
+//        return {timeCount:prevState.timeCount + 1}
+//       })
+//     },1000)
+// console.log('counting');  
+//   }
 
+///////////////////////////////////////////////////////
   flipImage = (e) => {
     // console.log(e.target)
     this.setState((prevState) => {
       return { pointerEvents: "none", showImage: !prevState.showImage };
     });
     this.props.updateImageHolder(this.props.index, this.props.image.url);
+    this.props.updateBtnsClicked()
   };
-
+/////////////////////////////////////////////////////////
   checkLogic = () => {
     // console.log(this.props.imageHolder);
     let imageHolder = this.props.imageHolder;
@@ -67,7 +78,7 @@ class ImageCard extends React.Component {
       // this.props.clearImageHolder();
     }
   };
-
+////////////////////////////////////////////////////////////////
 
   componentDidUpdate() {
     // console.log("did update");
