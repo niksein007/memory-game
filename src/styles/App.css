@@ -2,6 +2,11 @@
   width: 100px;
   height: 100px;
   border: 1px solid #E6EE9C;
+  cursor: pointer;
+}
+.ImageCard:hover {
+  border: 2px solid #C62828;
+  box-shadow: inset -2px 0px 20px #BBDEFB;
 }
 
 img {
